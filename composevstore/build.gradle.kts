@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.devlotfi.composevstore"
+    namespace = "com.github.devlotfi.composevstore"
     compileSdk {
         version = release(37)
     }
@@ -23,6 +23,19 @@ android {
     }
     publishing {
         singleVariant("release")
+    }
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            register<MavenPublication>("release") {
+                from(components["release"])
+                groupId = "com.github.devlotfi"
+                artifactId = "compose-query"
+                version = "1.0"
+            }
+        }
     }
 }
 

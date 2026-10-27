@@ -1,4 +1,4 @@
-package com.devlotfi.composevstore
+package com.github.devlotfi.composevstore
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
