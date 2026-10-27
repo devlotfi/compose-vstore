@@ -20,24 +20,6 @@ Compose VStore (`vstore`) is a lightweight Kotlin library for keeping Jetpack Co
 Compose VStore is published on [JitPack](https://jitpack.io/#devlotfi/compose-vstore). Add JitPack to the repositories used to resolve
 dependencies in your root `settings.gradle.kts`:
 
-```kotlin
-dependencyResolutionManagement {
-    repositories {
-        google()
-        mavenCentral()
-        maven { url = uri("https://jitpack.io") }
-    }
-}
-```
-
-Then add the library to your module's `build.gradle.kts`:
-
-```kotlin
-dependencies {
-    implementation("com.github.devlotfi:compose-vstore:1.0.1")
-}
-```
-
 ## Documentation
 
 - [Docs](https://github.com/devlotfi/compose-vstore/blob/master/docs/intro.md)
