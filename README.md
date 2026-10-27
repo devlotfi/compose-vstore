@@ -21,7 +21,7 @@ Compose VStore is published on [JitPack](https://jitpack.io/#devlotfi/compose-vs
 
 ## Documentation
 
-- [Docs](https://github.com/devlotfi/compose-vstore/blob/master/docs/intro.md)
+- [Docs](https://github.com/devlotfi/compose-vstore/blob/main/docs/intro.md)
 - [llms.txt](https://devlotfi.github.io/compose-vstore/llms.txt)
 
 ## Quick start
