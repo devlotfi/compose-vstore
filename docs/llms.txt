@@ -1,0 +1,15 @@
+# vstore
+
+vstore is a Kotlin library for Jetpack Compose that provides ViewModel-backed state and value storage through a `DataStore`. Its Compose helpers derive entry keys from a caller-provided key and the property name, allowing values to survive recomposition, configuration changes, and navigation while the `DataStore`'s ViewModel remains alive. It includes observable state helpers, non-observable value helpers, and a local `rememberValue` helper.
+
+## Documentation
+
+- [Project overview](https://devlotfi.github.io/compose-vstore/docs/intro.md)
+- [Getting started](https://devlotfi.github.io/compose-vstore/docs/getting-started.md)
+- [Concepts and the key system](https://devlotfi.github.io/compose-vstore/docs/concepts-and-key-system.md)
+- [`rememberValue`](https://devlotfi.github.io/compose-vstore/docs/remember-value.md)
+- [State in DataStore](https://devlotfi.github.io/compose-vstore/docs/state-in-datastore.md)
+- [Values in DataStore](https://devlotfi.github.io/compose-vstore/docs/value-in-datastore.md)
+- [API reference](https://devlotfi.github.io/compose-vstore/docs/api-reference.md)
+- [Best practices and pitfalls](https://devlotfi.github.io/compose-vstore/docs/best-practices-and-pitfalls.md)
+- [Recipes](https://devlotfi.github.io/compose-vstore/docs/recipes.md)
